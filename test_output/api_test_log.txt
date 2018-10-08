@@ -1,0 +1,187 @@
+2018-10-08 20:21:48,980 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 20:21:48,982 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 20:21:49,536 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 20:21:49,550 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 40, in <module>
+    data_field = data_set("Year")
+TypeError: 'str' object is not callable
+2018-10-08 20:22:26,068 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 20:22:26,069 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 20:22:26,352 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 20:22:26,356 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 40, in <module>
+    data_field = data_set("Year")
+TypeError: 'str' object is not callable
+2018-10-08 20:43:10,274 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 20:43:10,275 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 20:43:10,634 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 20:43:10,639 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 38, in <module>
+    rest_response = send_payload(REST_URL, payload)
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/requester.py", line 12, in send_payload
+    api_response_json = json.load(api_response_text)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py", line 296, in load
+    return loads(fp.read(),
+AttributeError: 'str' object has no attribute 'read'
+2018-10-08 20:45:08,674 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 20:45:08,674 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 20:45:08,972 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 20:45:08,972 API_TESTER INFO   actual: {'Title': '2001: A Space Odyssey', 'Year': '1968', 'Rated': 'G', 'Released': '12 May 1968', 'Runtime': '149 min', 'Genre': 'Adventure, Sci-Fi', 'Director': 'Stanley Kubrick', 'Writer': 'Stanley Kubrick (screenplay), Arthur C. Clarke (screenplay)', 'Actors': 'Keir Dullea, Gary Lockwood, William Sylvester, Daniel Richter', 'Plot': "A space-opera spanning the dawn of man to humanity reaching the stars, 2001: A Space Odyssey tells the story of the Black Monolith, humanity's evolution and the rise of A.I.'s ultimate supercomputer HAL 9000.", 'Language': 'English, Russian', 'Country': 'UK, USA', 'Awards': 'Won 1 Oscar. Another 13 wins & 10 nominations.', 'Poster': 'https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg', 'Ratings': [{'Source': 'Internet Movie Database', 'Value': '8.3/10'}, {'Source': 'Rotten Tomatoes', 'Value': '93%'}, {'Source': 'Metacritic', 'Value': '82/100'}], 'Metascore': '82', 'imdbRating': '8.3', 'imdbVotes': '516,610', 'imdbID': 'tt0062622', 'Type': 'movie', 'DVD': '25 Aug 1998', 'BoxOffice': '$135,620', 'Production': 'Warner Bros. Pictures', 'Website': 'N/A', 'Response': 'True'}
+2018-10-08 20:45:08,972 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 20:45:08,972 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 20:56:18,279 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 20:56:18,279 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 20:56:18,592 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 20:56:18,596 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 44, in <module>
+    test_result = assert_response(expect_response_code, expect_response_text, response_code, data_set)
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/assertor.py", line 9, in assert_response
+    print('actual code: ' + code)
+TypeError: must be str, not int
+2018-10-08 20:57:26,307 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 20:57:26,307 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 20:57:26,643 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 20:57:26,643 API_TESTER INFO   actual: 1968
+2018-10-08 20:57:26,643 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 20:57:26,643 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:01:35,781 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:01:35,782 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:01:36,121 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:01:36,121 API_TESTER INFO   actual: 1968
+2018-10-08 21:01:36,121 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 21:01:36,121 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:04:33,533 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:04:33,533 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:04:33,836 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:04:33,836 API_TESTER INFO   actual: 1968
+2018-10-08 21:04:33,836 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 21:04:33,836 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:08:14,826 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:08:22,119 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:08:22,443 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:08:22,445 API_TESTER INFO   actual: 1968
+2018-10-08 21:08:22,445 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 21:08:22,445 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:08:29,254 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:08:29,257 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:08:29,550 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:08:29,551 API_TESTER INFO   actual: 1968
+2018-10-08 21:08:29,551 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 21:08:29,551 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:08:44,356 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:08:44,358 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:08:44,427 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:08:44,429 API_TESTER INFO   actual: 1968
+2018-10-08 21:10:26,508 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:10:26,509 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:10:26,550 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:10:26,550 API_TESTER INFO   actual: 1968
+2018-10-08 21:10:26,550 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 21:10:26,550 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:24:20,012 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:24:20,013 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:24:20,374 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:24:20,374 API_TESTER INFO   actual: 1968
+2018-10-08 21:24:20,374 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 21:24:20,374 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:33:43,412 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:33:43,413 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:33:43,783 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:33:43,783 API_TESTER INFO   actual: 1968
+2018-10-08 21:33:43,783 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 21:33:43,783 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 21:59:02,927 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:59:02,928 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:59:03,258 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:59:03,263 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 41, in <module>
+    data_field = expect_response_text.split(':').replace('"', '')
+AttributeError: 'list' object has no attribute 'replace'
+2018-10-08 21:59:36,604 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 21:59:36,604 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 21:59:36,884 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 21:59:36,884 API_TESTER INFO   actual: Year
+2018-10-08 21:59:36,884 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 21:59:36,885 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:01:23,931 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:01:23,931 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:01:24,298 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:01:24,298 API_TESTER INFO   actual: 1968
+2018-10-08 22:01:24,298 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:01:24,298 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:03:23,668 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:03:23,669 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:03:24,036 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:03:24,036 API_TESTER INFO   actual: 1968
+2018-10-08 22:03:24,036 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:03:24,036 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:05:56,200 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:05:56,200 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:05:56,552 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:05:56,552 API_TESTER INFO   actual: 1968
+2018-10-08 22:05:56,552 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:05:56,552 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:06:36,627 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:06:36,627 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:06:36,963 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:06:36,963 API_TESTER INFO   actual: 1968
+2018-10-08 22:06:36,963 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:06:36,963 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:06:51,119 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:06:51,120 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:07:22,902 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:07:59,488 API_TESTER INFO   actual: 1968
+2018-10-08 22:08:58,566 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:08:58,567 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:09:07,939 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:09:30,812 API_TESTER INFO   actual: 1968
+2018-10-08 22:11:26,302 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:11:26,306 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:11:34,904 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:17:02,988 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:17:02,998 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:17:03,363 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:17:03,364 API_TESTER INFO   actual: 1968
+2018-10-08 22:17:03,364 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:17:03,364 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:17:43,606 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:17:43,606 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:17:43,941 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:17:43,942 API_TESTER INFO   actual: 1968
+2018-10-08 22:17:43,942 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:17:43,942 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:18:40,848 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:18:40,849 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:18:40,894 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:18:40,895 API_TESTER INFO   actual: 1968
+2018-10-08 22:18:40,895 API_TESTER INFO   Test case: TC_1 Failed
+2018-10-08 22:18:40,895 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:20:11,908 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:20:11,909 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:20:11,947 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:20:11,947 API_TESTER INFO   actual: 1968
+2018-10-08 22:20:11,948 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:20:11,948 API_TESTER INFO   Skipping test case TC_2
+2018-10-08 22:20:30,839 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:20:30,840 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:20:30,872 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:20:30,872 API_TESTER INFO   actual: 1968
+2018-10-08 22:20:30,873 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:20:30,873 API_TESTER INFO   Executing test case: TC_2
+2018-10-08 22:20:31,422 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-10-08 22:20:31,423 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-10-08 22:20:31,423 API_TESTER INFO   Test case: TC_2 Passed
+2018-10-08 22:23:25,859 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:23:25,860 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:23:26,157 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:23:26,157 API_TESTER INFO   actual: 1968
+2018-10-08 22:23:26,157 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:23:26,158 API_TESTER INFO   Executing test case: TC_2
+2018-10-08 22:23:26,485 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-10-08 22:23:26,485 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-10-08 22:23:26,485 API_TESTER INFO   Test case: TC_2 Passed

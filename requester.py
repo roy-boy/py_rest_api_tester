@@ -9,5 +9,6 @@ def send_payload(endpoint_url, payload_string):
     tl.test_logger.info('Payload: ' + payload_string)
     api_response_code = res.status_code    
     api_response_text = res.text
-    api_response = [api_response_code, api_response_text]
+    api_response_json = json.loads(api_response_text)
+    api_response = [api_response_code, api_response_json]
     return api_response

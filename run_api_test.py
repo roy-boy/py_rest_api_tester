@@ -33,14 +33,21 @@ try:
                     expect_response_code = test_row['EXPECTED_RESPONSE_CODE'].strip()
                     print('Expect test response code: ' + expect_response_code)
                     # send POST request
-                    expect_response_text = test_row['EXPECTED_RESPONSE_TEXT'].strip()
+                    expect_response = test_row['EXPECTED_RESPONSE_TEXT'].replace('"', '').split(':')
+                    expect_response_text = expect_response[1].strip()
                     print('Expect test response text: ' + expect_response_text)
-                    actual_response = send_payload(REST_URL, payload)
-                    test_row['ACTUAL_RESPONSE'] = str(actual_response[1])
+                    rest_response = send_payload(REST_URL, payload)
+                    response_code = rest_response[0]
+                    data_set = rest_response[1]
+                    field_value = data_set[expect_response[0]]
+                    test_row['ACTUAL_RESPONSE'] = field_value
+                    test_row['ACTUAL_RESPONSE_CODE'] = response_code
                     # calling assert test
-                    test_result = assert_response(expect_response_code, expect_response_text, actual_response)                    
+                    test_result = assert_response(expect_response_code, expect_response_text, response_code, field_value)
                     tl.test_logger.info('Test case: ' + test_id + ' ' + test_result)
                     test_row['TEST_RESULT'] = test_result  # update cell with test result
+                    test_row['PAYLOAD'] = payload.replace('"', '')
+                    test_row['EXPECTED_RESPONSE_TEXT'] = expect_response_text
                     csv_writer.writerow(test_row)
                 else:
                     tl.test_logger.info('Skipping test case ' + test_id)
