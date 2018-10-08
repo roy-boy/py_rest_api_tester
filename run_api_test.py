@@ -48,7 +48,7 @@ try:
                     test_row['TEST_RESULT'] = test_result  # update cell with test result
                     test_row['PAYLOAD'] = payload.replace('"', '')
                     test_row['EXPECTED_RESPONSE_TEXT'] = expect_response_text
-                    csv_writer.writerow(test_row)
+                    csv_writer.writerow(test_row)  # write to output csv
                 else:
                     tl.test_logger.info('Skipping test case ' + test_id)
 except Exception:

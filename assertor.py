@@ -9,7 +9,6 @@ def assert_response(expected_code, expected_text, code, data_field):
     print('actual text: ' + data_field)
     tl.test_logger.info('actual: ' + data_field)
     if str(code) == expected_code:
-        # test_row['ACTUAL_RESPONSE'] = response_text
         if data_field == expected_text:
             test_result = 'Passed'
         else:
