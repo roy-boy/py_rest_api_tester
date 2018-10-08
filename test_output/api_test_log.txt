@@ -185,3 +185,64 @@ AttributeError: 'list' object has no attribute 'replace'
 2018-10-08 22:23:26,485 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
 2018-10-08 22:23:26,485 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
 2018-10-08 22:23:26,485 API_TESTER INFO   Test case: TC_2 Passed
+2018-10-08 22:36:28,998 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:36:28,999 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:36:29,310 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:36:29,310 API_TESTER INFO   actual: 1968
+2018-10-08 22:36:29,310 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:36:29,310 API_TESTER INFO   Executing test case: TC_2
+2018-10-08 22:36:29,619 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-10-08 22:36:29,620 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-10-08 22:36:29,620 API_TESTER INFO   Test case: TC_2 Passed
+2018-10-08 22:36:29,620 API_TESTER INFO   Executing test case: TC_3
+2018-10-08 22:36:30,407 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt"}
+2018-10-08 22:36:30,413 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 42, in <module>
+    field_value = data_set[expect_response[0]]
+KeyError: 'Title'
+2018-10-08 22:37:32,723 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:37:32,734 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:37:33,029 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:37:33,029 API_TESTER INFO   actual: 1968
+2018-10-08 22:37:33,029 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:37:33,029 API_TESTER INFO   Executing test case: TC_2
+2018-10-08 22:37:33,354 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-10-08 22:37:33,355 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-10-08 22:37:33,355 API_TESTER INFO   Test case: TC_2 Passed
+2018-10-08 22:37:33,355 API_TESTER INFO   Executing test case: TC_3
+2018-10-08 22:37:33,729 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt"}
+2018-10-08 22:37:33,734 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 42, in <module>
+    field_value = data_set[expect_response[0]]
+KeyError: 'Title'
+2018-10-08 22:38:40,354 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:38:40,355 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:38:40,390 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:38:40,390 API_TESTER INFO   actual: 1968
+2018-10-08 22:38:40,390 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:38:40,390 API_TESTER INFO   Executing test case: TC_2
+2018-10-08 22:38:40,412 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-10-08 22:38:40,413 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-10-08 22:38:40,413 API_TESTER INFO   Test case: TC_2 Passed
+2018-10-08 22:38:40,413 API_TESTER INFO   Executing test case: TC_3
+2018-10-08 22:38:40,971 API_TESTER INFO   Payload: {"apikey": "e000000e" , "i": "tt"}
+2018-10-08 22:38:40,977 API_TESTER ERROR  Fail to start test execution as:
+Traceback (most recent call last):
+  File "/Users/708051/PycharmProjects/py_rest_api_tester/run_api_test.py", line 42, in <module>
+    field_value = data_set[expect_response[0]]
+KeyError: 'Title'
+2018-10-08 22:40:17,904 API_TESTER INFO   API endpoint POST test started...
+2018-10-08 22:40:17,905 API_TESTER INFO   Executing test case: TC_1
+2018-10-08 22:40:17,944 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-10-08 22:40:17,944 API_TESTER INFO   actual: 1968
+2018-10-08 22:40:17,944 API_TESTER INFO   Test case: TC_1 Passed
+2018-10-08 22:40:17,944 API_TESTER INFO   Executing test case: TC_2
+2018-10-08 22:40:17,965 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-10-08 22:40:17,965 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-10-08 22:40:17,965 API_TESTER INFO   Test case: TC_2 Passed
+2018-10-08 22:40:17,965 API_TESTER INFO   Executing test case: TC_3
+2018-10-08 22:40:18,454 API_TESTER INFO   Payload: {"apikey": "e000000e" , "i": "tt"}
+2018-10-08 22:40:18,455 API_TESTER INFO   actual: Invalid API key!
+2018-10-08 22:40:18,455 API_TESTER INFO   Test case: TC_3 Passed

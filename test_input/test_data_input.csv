@@ -1,3 +1,4 @@
 TEST_FLAG,TEST_CASE_ID,TEST_DESCRIPTION,PAYLOAD,EXPECTED_RESPONSE_CODE,EXPECTED_RESPONSE_TEXT,ACTUAL_RESPONSE_CODE,,ACTUAL_RESPONSE,TEST_RESULT
 Y,TC_1,Happy path - by title,{"apikey": "e753230e" | "t": "2001"},200,"Year": "1968",,
 Y,TC_2,Happy path - by imdb,{"apikey": "e753230e" | "i": "tt3896198"},200,"Title": "Guardians of the Galaxy Vol. 2",,
+Y,TC_3,Negative - wrong key,{"apikey": "e000000e" | "i": "tt3896198"},401,"Error": "Invalid API key!",,
