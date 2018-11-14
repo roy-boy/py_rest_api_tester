@@ -330,3 +330,52 @@ KeyError: 'Title'
 2018-10-17 20:48:16,254 API_TESTER INFO   actual: Star War
 2018-10-17 20:48:50,717 API_TESTER INFO   actual: Star War
 2018-10-17 20:48:50,718 API_TESTER INFO   actual: Star War
+2018-11-14 21:57:43,949 API_TESTER INFO   API endpoint POST test started...
+2018-11-14 21:57:43,950 API_TESTER INFO   Executing test case: TC_1
+2018-11-14 21:57:44,517 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-11-14 21:57:44,517 API_TESTER INFO   actual: 1968
+2018-11-14 21:57:44,517 API_TESTER INFO   Test case: TC_1 Passed
+2018-11-14 21:57:44,517 API_TESTER INFO   Executing test case: TC_2
+2018-11-14 21:57:45,031 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-11-14 21:57:45,031 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-11-14 21:57:45,032 API_TESTER INFO   Test case: TC_2 Passed
+2018-11-14 21:57:45,032 API_TESTER INFO   Executing test case: TC_3
+2018-11-14 21:57:46,052 API_TESTER INFO   Payload: {"apikey": "e000000e" , "i": "tt3896198"}
+2018-11-14 21:57:46,053 API_TESTER INFO   actual: Invalid API key!
+2018-11-14 21:57:46,053 API_TESTER INFO   Test case: TC_3 Passed
+2018-11-14 22:01:03,017 API_TESTER INFO   API endpoint POST test started...
+2018-11-14 22:01:03,017 API_TESTER INFO   Executing test case: TC_1
+2018-11-14 22:01:03,050 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-11-14 22:01:03,051 API_TESTER INFO   actual: 1968
+2018-11-14 22:01:03,051 API_TESTER INFO   Test case: TC_1 Passed
+2018-11-14 22:01:03,051 API_TESTER INFO   Executing test case: TC_2
+2018-11-14 22:01:03,109 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-11-14 22:01:03,109 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-11-14 22:01:03,109 API_TESTER INFO   Test case: TC_2 Passed
+2018-11-14 22:01:03,109 API_TESTER INFO   Executing test case: TC_3
+2018-11-14 22:01:03,584 API_TESTER INFO   Payload: {"apikey": "e000000e" , "i": "tt3896198"}
+2018-11-14 22:01:03,584 API_TESTER INFO   actual: Invalid API key!
+2018-11-14 22:01:03,584 API_TESTER INFO   Test case: TC_3 Passed
+2018-11-14 22:03:23,840 API_TESTER INFO   actual: Star War
+2018-11-14 22:03:23,841 API_TESTER INFO   actual: Star War
+2018-11-14 22:17:22,442 API_TESTER INFO   actual: Star War
+2018-11-14 22:17:22,443 API_TESTER INFO   actual: Star War
+2018-11-14 22:34:19,715 API_TESTER INFO   actual: Star War
+2018-11-14 22:34:19,720 API_TESTER INFO   actual: Star War
+2018-11-14 22:53:35,064 API_TESTER INFO   actual: Star War
+2018-11-14 22:53:35,068 API_TESTER INFO   actual: Star War
+2018-11-14 22:54:47,631 API_TESTER INFO   actual: Star War
+2018-11-14 22:54:47,640 API_TESTER INFO   actual: Star War
+2018-11-14 22:55:01,182 API_TESTER INFO   API endpoint POST test started...
+2018-11-14 22:55:01,183 API_TESTER INFO   Executing test case: TC_1
+2018-11-14 22:55:01,626 API_TESTER INFO   Payload: {"apikey": "e753230e" , "t": "2001"}
+2018-11-14 22:55:01,626 API_TESTER INFO   actual: 1968
+2018-11-14 22:55:01,626 API_TESTER INFO   Test case: TC_1 Passed
+2018-11-14 22:55:01,626 API_TESTER INFO   Executing test case: TC_2
+2018-11-14 22:55:01,898 API_TESTER INFO   Payload: {"apikey": "e753230e" , "i": "tt3896198"}
+2018-11-14 22:55:01,898 API_TESTER INFO   actual: Guardians of the Galaxy Vol. 2
+2018-11-14 22:55:01,898 API_TESTER INFO   Test case: TC_2 Passed
+2018-11-14 22:55:01,899 API_TESTER INFO   Executing test case: TC_3
+2018-11-14 22:55:02,554 API_TESTER INFO   Payload: {"apikey": "e000000e" , "i": "tt3896198"}
+2018-11-14 22:55:02,554 API_TESTER INFO   actual: Invalid API key!
+2018-11-14 22:55:02,554 API_TESTER INFO   Test case: TC_3 Passed
